@@ -1,0 +1,24 @@
+{
+  "seo_title": "Network speed meter for macOS",
+  "seo_description": "NetPulseBar is a free, open-source macOS menu bar app that shows live upload and download speed, a 60-second graph and daily usage totals. Native Swift.",
+  "hero_title_line1": "Your network speed,",
+  "hero_title_accent": "always in the menu bar",
+  "hero_sub": "NetPulseBar shows live download and upload rates in your menu bar. Click it for a 60-second graph, your active interface and IP, and usage totals for today, this month and all time.",
+  "features_title": "Small app, accurate numbers.",
+  "features_sub": "Everything you need to watch your connection, and nothing that leaves your Mac.",
+  "features": [
+    {"icon": "bolt", "title": "Live speeds in the menu bar", "desc": "Download and upload rates update every 1, 2 or 5 seconds in a monospaced-digit label that does not jitter. Show both directions, or just one."},
+    {"icon": "sliders", "title": "Bytes or bits, your choice", "desc": "Switch between bytes per second and bits per second, and choose whether the menu bar shows download, upload or both."},
+    {"icon": "clock", "title": "Sparklines and usage totals", "desc": "The popover charts the last 60 seconds for download and upload, and tracks bytes used today, this month and all time with a Reset Counters button."},
+    {"icon": "cpu", "title": "Counts the right interfaces", "desc": "Wi-Fi, Ethernet and tethering are counted by default. VPN tunnels, bridges and AirDrop links are off to avoid double counting, and you can toggle each one."},
+    {"icon": "display", "title": "Connection details at a glance", "desc": "See the active interface name, such as Wi-Fi or Ethernet, and your local IPv4 address. The label reads Offline when there is no connection."},
+    {"icon": "lock", "title": "Private and dependency-free", "desc": "Built with Swift, SwiftUI and AppKit with no third-party packages. No packets are inspected and nothing leaves your Mac."}
+  ],
+  "permissions_step": "No special permissions are required; if you enable Launch at login, macOS may ask you to approve it in System Settings > General > Login Items.",
+  "faq": [
+    {"q": "Is NetPulseBar free and open source?", "a": "Yes. It is free to use and released under the MIT license, with the full source on GitHub. If it is useful to you, there is an optional Support button that links to Ko-fi."},
+    {"q": "What permissions does it need?", "a": "None. It reads interface byte counters, watches connectivity and looks up interface names without any privacy prompt. The only system interaction is the optional Launch at login toggle, which macOS may ask you to approve in Login Items."},
+    {"q": "Where is my data stored?", "a": "Daily totals are saved as JSON at ~/Library/Application Support/NetPulseBar/usage.json and kept for 400 days. Nothing is sent anywhere, and the Clear History button in Settings deletes it."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, which this free project does not have. Right-click the app and choose Open once to launch it, or build it yourself from source with Xcode and XcodeGen."}
+  ]
+}

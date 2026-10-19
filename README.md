@@ -1,5 +1,7 @@
 # NetPulseBar
 
+**🌐 Website:** [turhe123.github.io/net-pulse-bar](https://turhe123.github.io/net-pulse-bar/)
+
 See live upload and download speed in the menu bar, with per-day totals and a tiny history graph.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -28,7 +30,17 @@ NetPulseBar is a free, open-source, 100% native, backend-free alternative to pai
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-popover.png" alt="NetPulseBar popover with download and upload graphs and usage totals" width="720"></p>
+
+<p align="center"><em>The menu bar popover shows the active Wi-Fi interface and local IP, live download and upload sparklines for the last 60 seconds, and usage totals for today, this month and all time.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="NetPulseBar Settings window, General and Counted interfaces sections" width="560"></p>
+
+<p align="center"><em>Settings let you toggle launch at login, choose bytes or bits, set the update interval, pick what the menu bar shows, and select which network interfaces are counted.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings-data.png" alt="NetPulseBar Settings scrolled to interface list end and Data section" width="560"></p>
+
+<p align="center"><em>VPN tunnels and bridges are off by default to avoid double counting, and totals stay on your Mac with a one-click Clear History.</em></p>
 
 ## Install
 

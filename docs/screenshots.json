@@ -1,0 +1,5 @@
+[
+  {"file":"01-popover.png","caption":"The menu bar popover shows the active Wi-Fi interface and local IP, live download and upload sparklines for the last 60 seconds, and usage totals for today, this month and all time.","alt":"NetPulseBar popover with download and upload graphs and usage totals"},
+  {"file":"02-settings.png","caption":"Settings let you toggle launch at login, choose bytes or bits, set the update interval, pick what the menu bar shows, and select which network interfaces are counted.","alt":"NetPulseBar Settings window, General and Counted interfaces sections"},
+  {"file":"03-settings-data.png","caption":"VPN tunnels and bridges are off by default to avoid double counting, and totals stay on your Mac with a one-click Clear History.","alt":"NetPulseBar Settings scrolled to interface list end and Data section"}
+]
