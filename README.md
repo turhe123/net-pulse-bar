@@ -76,6 +76,17 @@ NetPulseBar doesn't request Accessibility, Screen Recording, Microphone, Camera,
 
 The only system interaction is the optional **Launch at login** toggle. macOS may ask you to approve the login item in System Settings › General › Login Items.
 
+## Built with AI
+
+NetPulseBar was written by [Claude Code](https://claude.com/claude-code) inside an automated pipeline, from a plain-English spec. No code, binaries or assets from any commercial app were used; it is a clean-room reimplementation of a feature set, not a copy.
+
+What that means in practice:
+
+- The full source is in this repo under the MIT license. Read it before you run it.
+- No network calls, no analytics, no third-party dependencies. Only Apple frameworks.
+- Ad-hoc signed and not notarized, which is why Gatekeeper warns on first launch.
+- It has had less human review than a hand-written app. Bug reports and pull requests are welcome.
+
 ## Support ❤️
 
 If NetPulseBar is useful to you, you can support its development:
